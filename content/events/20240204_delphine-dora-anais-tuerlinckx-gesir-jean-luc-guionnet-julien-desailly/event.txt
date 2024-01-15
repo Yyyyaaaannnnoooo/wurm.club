@@ -1,0 +1,52 @@
+Title: Delphine Dora & Anaïs Tuerlinckx / GÉSIR | Jean-Luc guionnet | Julien Desailly
+
+----
+
+Eventdate: 2024-02-04
+
+----
+
+Eventtitle: Delphine Dora & Anaïs Tuerlinckx / GÉSIR, Jean-Luc guionnet (electric organ) Julien Desailly (pipe, gaïda)
+
+----
+
+Serie: Klappfon
+
+----
+
+Artists:
+
+- 
+  name: 'Delphine Dora & Anaïs Tuerlinckx / GÉSIR'
+  show: ""
+  genre: concert
+  bio: ""
+  link: ""
+- 
+  name: Jean-Luc guionnet
+  show: ""
+  genre: Concert
+  bio: ""
+  link: ""
+- 
+  name: Julien Desailly (pipe, gaïda)
+  show: ""
+  genre: Concert
+  bio: ""
+  link: ""
+
+----
+
+Start: 21:00
+
+----
+
+End: 
+
+----
+
+From: 2024-02-04
+
+----
+
+Uuid: uGBh8CrHgBR1EI5B

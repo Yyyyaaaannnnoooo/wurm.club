@@ -1,0 +1,21 @@
+
+title: Home
+
+
+icon: 🪱
+options:
+  changeStatus: false
+
+tabs:
+  content:
+    columns:
+      - width: 2/3
+        sections:
+          content:
+            type: fields
+            fields:
+              bgimage:
+                label: Background Image
+                type: files
+                max: 1
+  seotab: seo

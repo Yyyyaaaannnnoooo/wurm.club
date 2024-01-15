@@ -1,0 +1,52 @@
+title: Event
+icon: 📅
+num: "{{ page.from.toDate('Ymd') }}"
+
+columns:
+  main:
+    width: 2/3
+    fields:
+      eventdate:
+        label: Day Of the Event
+        type: date
+        width: 1/2
+        default: today
+        requred: true
+      eventtitle:
+        label: Event Title
+        type: text
+      serie:
+        label: Series
+        type: text 
+      artists:
+        label: Artists
+        type: structure
+        fields:
+          name:
+            type: text
+          show:
+            label: What kind of show? Dj set, live, etc....
+            type: text
+          genre:
+            type: text
+          bio:
+            label: Biography / infos
+            type: textarea
+          link:
+            label: URL (Don't forget https://)
+            type: url
+      start:
+        label: Events starts at
+        type: text
+        requred: true
+      end:
+        label: Events ends at
+        type: text
+        requred: true
+  sidebar:
+    width: 1/3
+    sections:
+      Flyer:
+        type: files
+        multiple: false
+        max: 1

@@ -1,0 +1,64 @@
+Title: Wormhole '78
+
+----
+
+Eventdate: 2024-02-10
+
+----
+
+Eventtitle: Wormhole '78
+
+----
+
+Serie: WORMHOLE
+
+----
+
+Artists:
+
+- 
+  name: Papiro
+  show: ""
+  genre: ""
+  bio: ""
+  link: ""
+- 
+  name: Jokloo Duo
+  show: ""
+  genre: Concert
+  bio: ""
+  link: ""
+- 
+  name: Hansruedi Bühler a.k.a. HMOT
+  show: Dj set
+  genre: ""
+  bio: ""
+  link: ""
+- 
+  name: Varni
+  show: Dj set
+  genre: ""
+  bio: ""
+  link: ""
+- 
+  name: Brooklyn Bridge
+  show: Dj set
+  genre: ""
+  bio: ""
+  link: ""
+
+----
+
+Start: 
+
+----
+
+End: 
+
+----
+
+From: 2024-02-10
+
+----
+
+Uuid: NytWMU4AulwSIbTM

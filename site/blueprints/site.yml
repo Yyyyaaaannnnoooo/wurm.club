@@ -1,0 +1,11 @@
+columns:
+  - width: 1/2
+    sections:
+      films: sections/events
+      pages:
+        type: pages
+        create: default
+        templates:
+          - about
+          - home
+          - default

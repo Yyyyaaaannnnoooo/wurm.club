@@ -1,0 +1,6 @@
+type: pages
+label: Events
+parent: site.find("events")
+sortBy: from desc
+template: event
+empty: No events yet

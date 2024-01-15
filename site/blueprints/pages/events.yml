@@ -1,0 +1,23 @@
+title: Events
+icon: 📅
+
+options:
+  changeSlug: false
+  changeStatus: false
+  delete: false
+
+sections:
+  drafts:
+    extends: sections/events
+    label: Unpublished events
+        status: draft
+
+  unlisted:
+    extends: sections/events
+    label: Unlisted events
+        status: unlisted
+
+  listed:
+    extends: sections/events
+    label: Published events
+        status: listed

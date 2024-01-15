@@ -1,0 +1,41 @@
+Title: Valentina Goncharova
+
+----
+
+Eventdate: 2024-02-03
+
+----
+
+Eventtitle: Valentina Goncharova
+
+----
+
+Serie: Klappfon
+
+----
+
+Artists:
+
+- 
+  name: Valentina Goncharova
+  show: Concert
+  genre: ""
+  bio: 'Historically informed violin player, prize-winning street musician, new age experimentalist, chamber ensemble performer and conservatoire deviant. The career of Valentina Goncharova (b. Kyiv 1953) shares parallels with those associated with the broader new music movement of the 20th century and the dissemination of home recording technologies. Valentina’s was a youth spent immersed in the world of classical music study under soviet rule, first in Kyiv and later in Leningrad (now St. Petersburg) from the age of 16. With the supervision of professors M. Vayman and B. Gutnikov she learned concert violin and developed alternate playing styles alongside skilled pianists. A student of the Leningrad conservatoire during the years 1969 through to 1983, her repertoire included music for violin and later expanded to contemporary music composition. The improvisatory nature of free jazz and then budding experimental rock circles also intrigued Valentina during this period in Leningrad. Departing from the rules of the conservatoire, she briefly performed in underground rock clubs alongside future members of the industrial group Pop- Mechanika (Popular Mechanics).'
+  link: >
+    https://www.discogs.com/artist/761220-Valentina-Goncharova
+
+----
+
+Start: 
+
+----
+
+End: 
+
+----
+
+From: 2024-02-03
+
+----
+
+Uuid: SNjT2ahGEC6QKuz3

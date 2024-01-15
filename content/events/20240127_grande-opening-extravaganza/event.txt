@@ -1,0 +1,134 @@
+Title: Grande Opening Extravaganza
+
+----
+
+Eventdate: 2024-01-27
+
+----
+
+Eventtitle: NEW SOIL
+
+----
+
+Serie: Grande Wurm Re-Opening Extravaganza
+
+----
+
+Artists:
+
+- 
+  name: "M'n'M's"
+  show: ""
+  genre: ""
+  bio: ""
+  link: ""
+- 
+  name: Mental Load
+  show: ""
+  genre: ""
+  bio: ""
+  link: >
+    https://www.instagram.com/mental_load_agency/
+- 
+  name: Impossible Territories
+  show: ""
+  genre: ""
+  bio: ""
+  link: ""
+- 
+  name: Oblique
+  show: ""
+  genre: ""
+  bio: ""
+  link: ""
+- 
+  name: Cedric Fremont
+  show: ""
+  genre: ""
+  bio: >
+    Cedrik Fermont (aka C-drík, Kirdec,
+    Cdrk) is a Berlin-based
+    Belgian-Congolese composer, musician,
+    mastering engineer, author, radio host,
+    concert organizer, independent
+    researcher, and label manager (at
+    Syrphe) who operates in the field of
+    noise, electronic, and experimental
+    music since 1989.
+  link: >
+    https://www.onassis.org/people/cedrik-fermont
+- 
+  name: vvvosk
+  show: ""
+  genre: ""
+  bio: ""
+  link: https://www.instagram.com/vvvosk_
+- 
+  name: Ruhail Qaisar
+  show: Live
+  genre: ""
+  bio: ""
+  link: https://ruhailqaisar.bandcamp.com/
+- 
+  name: Elvin Brandhi
+  show: Live
+  genre: ""
+  bio: ""
+  link: https://elvinbrandhi.bandcamp.com/
+- 
+  name: Younger Sibling
+  show: Live
+  genre: ""
+  bio: |
+    πøß†-πøß†-πøß†-*çø®´
+    å˜†ˆ ƒˆ´¬∂ ®´çø®∂ˆ˜©
+    ©¬ˆ†ç˙ ´≈†®å√å©å˜Ωå
+  link: https://soundcloud.com/user-25924719
+- 
+  name: Avia
+  show: dj-set
+  genre: ""
+  bio: ""
+  link: https://soundcloud.com/aviasuperplus
+- 
+  name: Varni
+  show: Dj set
+  genre: ""
+  bio: ""
+  link: https://soundcloud.com/user-494584273
+- 
+  name: Mr. π
+  show: dj set
+  genre: ""
+  bio: ""
+  link: https://soundcloud.com/mr-pena
+- 
+  name: HMOT
+  show: ""
+  genre: ""
+  bio: ""
+  link: https://hmot.club
+
+----
+
+Start: 20:00
+
+----
+
+End: 8:00
+
+----
+
+From: 2024-01-27
+
+----
+
+Uuid: IBu8Pc9v0FCLYcf4
+
+----
+
+To: 2024-01-07
+
+----
+
+Text: 

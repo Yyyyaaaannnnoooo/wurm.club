@@ -1,0 +1,56 @@
+title: About
+icon: ☎️
+
+status:
+  draft: true
+  listed: true
+
+options:
+  changeSlug: false
+  delete: false
+
+tabs:
+  content:
+    columns:
+      - width: 2/3
+          fields:
+            texten:
+              label: About Me EN
+              type: textarea
+            textde:
+              label: About Me DE
+              type: textarea
+      - width: 1/3
+        fields: 
+          email:
+            label: Contact
+            type: email
+          ig:
+            label: Instagram link
+            type: url
+          fb:
+            label: Facebook link
+            type: url
+          yt:
+            label: Youtube link
+            type: url
+          vi:
+            label: Vimeo link
+            type: url
+          partners:
+            type: structure
+            fields:
+              link:
+                label: Url with http or https
+                type: url
+                placeholder:
+                  de: https://innovative-eye.ch
+                required: true
+              logo:
+                label: Logo
+                type: files
+                max: 1
+                placeholder:
+                  de: upload a single .png or .jpeg image
+                required: true
+  seotab: seo

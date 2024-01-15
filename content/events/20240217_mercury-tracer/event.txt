@@ -1,0 +1,46 @@
+Title: mercury tracer
+
+----
+
+Eventdate: 2024-02-17
+
+----
+
+Eventtitle: MERCURY TRACER 001
+
+----
+
+Serie: MERCURY TRACER
+
+----
+
+Artists:
+
+- 
+  name: Ana Jikia
+  show: Dj set
+  genre: ""
+  bio: ""
+  link: https://soundcloud.com/waterdragon00
+- 
+  name: Alice Anyway
+  show: dj / hybrid set with live vocals
+  genre: post club experimental
+  bio: ""
+  link: https://soundcloud.com/aliceanyway
+
+----
+
+Start: 21:00
+
+----
+
+End: 3:00
+
+----
+
+From: 2024-02-17
+
+----
+
+Uuid: CjwQb8JAbN2ecfA5

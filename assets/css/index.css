@@ -1,0 +1,350 @@
+:root {
+  --bar-height: 65px;
+  --color-red: #f43;
+}
+
+@font-face {
+  font-family: 'wurm';
+  src: url('../fonts/PxPlus_VGA_SquarePx.woff') format('woff');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  /* cursor: none; */
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🪱</text></svg>") 14 16, auto;
+  font-family: 'Courier New', Courier, monospace;
+  /* font-family: 'wurm', 'Courier New', Courier, monospace; */
+  font-size: 100%;
+  /* line-height: 0.75rem; */
+  scrollbar-color: black transparent;
+}
+
+/* custom scrollbars */
+/* For Chrome, Safari, and newer Edge */
+::-webkit-scrollbar {
+  width: 6px;
+  /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+  /* Thumb color */
+  border-radius: 6px;
+  /* Rounded corners on the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+  /* Thumb color on hover */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.hydra-container,
+#p5 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+#p5 {
+  z-index: -1;
+}
+
+.hydra-container {
+  z-index: -2;
+}
+
+#hydra {
+  width: 100%;
+  height: 100%;
+}
+
+.footer,
+.blend-bg,
+.header {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  height: var(--bar-height);
+  width: 100%;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.middle {
+  cursor: pointer;
+}
+
+.f-items {
+  width: 33%;
+  isolation: isolate;
+  color: white;
+  text-shadow: black 3px 3px 5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.blend-bg,
+.header {
+  z-index: 10;
+  background-color: white;
+}
+
+.exclusion {
+  mix-blend-mode: exclusion;
+}
+
+.hidden{
+  /* visibility: hidden; */
+  display: none;
+  height: 0px;
+}
+
+.visible{
+  /* visibility: visible; */
+  display: block;
+  height: auto;
+}
+
+.header h1 {
+  margin-top: 8rem;
+  font-size: 8rem;
+}
+
+.head-image {
+  height: 300%;
+  /* filter: invert(1); */
+}
+
+.footer {
+  z-index: 20;
+  /* color: white; */
+  /* background-color: black; */
+}
+
+.header {
+  top: 0px;
+  z-index: 9999999;
+  background-color: transparent;
+  color: white;
+  /* text-shadow: #ccc 3px 3px 0px; */
+}
+
+.header svg {
+  height: var(--bar-height);
+}
+
+.main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* mix-blend-mode: exclusion; */
+}
+
+.about {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 66%;
+  color: black;
+  text-shadow: 2px 2px 0px #fff, -2px -2px 0px #fff;
+  border: solid 3px black;
+  padding: 0.65rem;
+  font-size: 1.25rem;
+  background-color: #ffffff;
+  box-shadow: black 5px 5px 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.events {
+  width: 65%;
+  max-width: 650px;
+  height: calc(100vh - (2 * var(--bar-height)));
+  overflow-y: scroll;
+  /* border: solid black 3px; */
+}
+
+.event {
+
+  padding: 0.5rem;
+}
+
+.evdate {
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.evheader{
+  user-select: none;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  background-color: black;
+  background-image: url('../img/wurm_vector.png');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 4% auto;
+  padding: 1rem 0 1rem 0;
+  margin-bottom: 10px;
+}
+.evheader:hover{
+  background-color: white;
+  color: black;
+  /* font-weight: bold; */
+}
+
+.evtitle {
+  font-size: 3rem;
+}
+
+.evserie {
+  color: var(--color-red);
+  font-size: 1rem;;
+}
+
+.wurms {
+  background-color: black;
+  background-image: url('../img/wurm_vector.png');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 4% auto;
+}
+
+
+.evartistdetails {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+}
+
+/* .evmulti:hover {
+  background-color: black;
+  color: #3f3;
+  background-image: url('../img/wurm_vector.png');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 4% auto;
+} */
+
+.show,
+.genre {
+  margin-left: 10px;
+}
+
+.show {
+  color: var(--color-red);
+  background-color: white;
+}
+
+.genre {
+  color: var(--color-red);
+  background-color: white;
+}
+
+.artist {
+  font-size: 1.25rem;
+  background-color: white;
+}
+
+.evbio {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.25rem;
+  font-weight: bolder;
+  text-shadow: white 1.5px 1.5px 0px;
+}
+
+/* .evbio:hover {
+  background-color: black;
+  color: #3f3;
+  background-image: url('../img/wurm_vector.png');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 4% auto;
+} */
+
+.midsize {
+  font-size: 2rem;
+  background-color: black;
+  color: white;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.evmulti {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.evmulti a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 750px) {
+  html {
+    font-size: 85%;
+  }
+
+  .evtitle {
+    font-size: 2.5rem;
+  }
+
+  .events {
+    width: 90%;
+    height: calc(100vh - (4 * var(--bar-height)));
+    background-color: #3f3a;
+    box-shadow: black 7px 7px 10px;
+  }
+
+  .header h1 {
+    margin-top: 4rem;
+    font-size: 4rem;
+  }
+
+  .header svg {
+    width: 80%;
+  }
+
+  .about {
+    height: 60%;
+    font-size: 0.75rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .f-items {
+    font-size: 1rem;
+  }
+}

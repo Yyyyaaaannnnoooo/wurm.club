@@ -1,0 +1,46 @@
+Title: Trystero / Les Trucs
+
+----
+
+Eventdate: 2024-02-22
+
+----
+
+Eventtitle: Trystero / Les Trucs
+
+----
+
+Serie: 
+
+----
+
+Artists:
+
+- 
+  name: Les Trucs
+  show: Concert
+  genre: Electro Punk
+  bio: ""
+  link: ""
+- 
+  name: Trystero
+  show: Concert
+  genre: ""
+  bio: ""
+  link: ""
+
+----
+
+Start: 20:30
+
+----
+
+End: 00:00
+
+----
+
+From: 2024-02-22
+
+----
+
+Uuid: HtToX8bTGiZI4zER
